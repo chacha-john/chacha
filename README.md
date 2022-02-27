@@ -5,7 +5,7 @@
 # Table of Content
 
 + [Description](#description)
-+ [Requirements](#Requirements)
++ [Design](#design)
 + [Technology Used](#technology-used)
 + [Licence](#licence)
 + [Authors Info](#authors-Info)
@@ -14,6 +14,9 @@
 <p>A portfolio website to show case my skills and abilities. The site also shows the works I have done and has links to my contacts incase some one is interested  in the services I offer.</p>
 
 [Go Back to the top](#Portfolio)
+
+# Design
+[Figma] (https://www.figma.com/file/FpNN5JhklnVWo59oALSPp6/portfolio?node-id=0%3A1)
 
 # Technology Used
 * HTML - This was used for structuring the page.
