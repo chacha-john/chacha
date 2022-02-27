@@ -31,7 +31,7 @@ a{
     text-decoration: none;
     color: black;
 }
-button{
+#lets-talk{
     width: 10%;
     height: 40px;
     margin: 5px 5px;
@@ -94,6 +94,7 @@ h2{
 .cards{
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .card{
     width: 25%;
@@ -103,6 +104,21 @@ h2{
 }
 .card img{
     border-radius: 60%;
-    width: 50%;
+    width: 30%;
+    height: 50%;
     
+}
+button{
+    width: 50%;
+    height: 40px;
+    margin: 5px 5px;
+    background-color: #A16830;
+    color: #fff;
+    font-size: x-large;
+    border-radius: 10px;
+    justify-content: right;
+    margin-bottom: 20%;
+}
+.description-2{
+    text-align: left;
 }
