@@ -8,12 +8,10 @@
 + [Requirements](#Requirements)
 + [Technology Used](#technology-used)
 + [Licence](#licence)
-+ [Authors Info](#author-Info)
++ [Authors Info](#authors-Info)
 
 # Description
-<p>A website landing page for a restaurant that sells burgers. This site helps users place orders, download the mobile app both for android phones and iphones.</p>
-<p>The site also helps a user send feedback or reach out through the company's social media platforms.
-Furthermore, the site allows one to subscribe to a mailing list where they can get updates in their email address.</p>
+<p>A portfolio website to show case my skills and abilities. The site also shows the works I have done and has links to my contacts incase some one is interested  in the services I offer.</p>
 
 [Go Back to the top](#Portfolio)
 
