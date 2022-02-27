@@ -27,7 +27,7 @@ Furthermore, the site allows one to subscribe to a mailing list where they can g
 
 # Licence
 
-[Licence](LICENSE.md)
+[Licence](LICENSE)
 
 [Go Back to the top](#Portfolio)
 
