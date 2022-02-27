@@ -41,7 +41,7 @@ button{
     border-radius: 10px;
     justify-content: right;
 }
-.home-section{
+.home-section, .about{
     display: flex;
     width: 100%;
 }
@@ -69,8 +69,28 @@ span{
 }
 div img{
     width: 100%;
+    position: relative;
+    bottom: -1%;
 }
 #about-me, #works{
     width: 100%;
     background-image: linear-gradient(#A16830,#2082A1);
+}
+h2{
+    text-align: center;
+    padding: 2%;
+    font-size: 2em;
+}
+#description-1{
+    width: 30%;
+    font-size: 2em;
+    position: relative;
+    left: 25%;
+
+}
+#img-2{
+    width: 30%;
+}
+.cards{
+    display: flex;
 }
