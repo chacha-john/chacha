@@ -16,7 +16,7 @@
 [Go Back to the top](#Portfolio)
 
 # Design
-[Figma] (https://www.figma.com/file/FpNN5JhklnVWo59oALSPp6/portfolio?node-id=0%3A1)
+[Figma](https://www.figma.com/file/FpNN5JhklnVWo59oALSPp6/portfolio?node-id=0%3A1)
 
 # Technology Used
 * HTML - This was used for structuring the page.
