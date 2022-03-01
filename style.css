@@ -4,7 +4,7 @@
     padding: 0;
     font-family: 'Righteous', cursive;
 }
-.head, #works{
+.head, #works, footer{
     width: 100%;
     background-image: linear-gradient(#2082A1, #A16830);
 }
@@ -40,6 +40,10 @@ a{
     font-size: x-large;
     border-radius: 5px;
     justify-content: right;
+}
+#lets-talk{
+    background-color: transparent;
+    border: 1px white solid;
 }
 .home-section, .about{
     display: flex;
@@ -125,6 +129,24 @@ button{
     margin-top: 5%;
     margin-bottom: 10%;
 }
+button:hover{
+    background-color: transparent;
+    border: 1px white solid;
+}
 .description-2{
     text-align: left;
+}
+#let-us-talk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    padding: 1%;
 }
