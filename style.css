@@ -142,6 +142,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 2%;
     
 }
 form{
@@ -158,5 +159,13 @@ form{
     background-color: transparent;
     border-bottom: black;
     width: 75%;
-    padding: 0;
+}
+footer{
+    text-align: center;
+    font-size: small;
+    padding: 1% 0;
+}
+hr{
+    width: 75%;
+    color: black;
 }
