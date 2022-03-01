@@ -40,8 +40,9 @@ a{
     font-size: x-large;
     border-radius: 5px;
     justify-content: right;
+    border: 1px solid #A16830;
 }
-#lets-talk{
+#lets-talk:hover{
     background-color: transparent;
     border: 1px white solid;
 }
@@ -122,6 +123,7 @@ button{
     height: 50px;
     margin: 5px 5px;
     background-color: #A16830;
+    border: 1px solid #A16830;
     color: #fff;
     font-size: x-large;
     border-radius: 5px;
@@ -148,5 +150,13 @@ form{
     width: 40%;
     border-radius: 10px;
     box-shadow: 5px 5px 10px black;
-    padding: 1%;
+    padding: 2%;
+    justify-content: space-between;
+}
+#email-1{
+    border: none;
+    background-color: transparent;
+    border-bottom: black;
+    width: 75%;
+    padding: 0;
 }
