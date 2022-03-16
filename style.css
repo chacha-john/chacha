@@ -11,11 +11,13 @@
 .nav{
     width: 100%;
     display: flex;
+    padding-top: 2%;
 
 }
 .brand{
     width: 50%;
     font-size: 3em;
+    padding-left: 5%;
 }
 .menu-items{
     width: 30%;
@@ -51,11 +53,20 @@ a{
     width: 100%;
 }
 #home{
-    width: 50%;
+    width: 40%;
 
 }
+#callme{
+    margin-top: 5%;
+    text-decoration: wavy;
+    font-size: x-large;
+    width: 30%;
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
 #img-1, #img-2{
-    width: 50%;
+    width: 30%;
 }
 
 .text-1{
@@ -107,7 +118,7 @@ h2{
 }
 .card{
     width: 25%;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 5px 5px 10px black;
     border-radius: 10px;
     margin: 2%;
     padding: 1%;
@@ -168,4 +179,18 @@ footer{
 hr{
     width: 75%;
     color: black;
+}
+
+/* Form section */
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: large;
+    padding: 2%;
+    text-align: right;
+}
+label{
+    margin-top: 5%;
 }
