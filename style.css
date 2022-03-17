@@ -188,8 +188,9 @@ input, textarea{
     border-bottom: 2px solid white;
     color: white;
     font-size: large;
-    padding: 2% 0;
+    padding: 2% 1%;
     outline: none;
+    border-radius: 5px;
 }
 label{
     margin: 5% 0;
@@ -198,8 +199,11 @@ label{
     -webkit-text-fill-color: white !important;
 }
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active{
-    -webkit-box-shadow: 0 0 0 30px #818181 inset !important;
+    -webkit-box-shadow: 0 0 0 30px rgb(63, 145, 170) inset !important;
 } 
 ::placeholder{
     color: #c4c4c4;
+}
+#submit-1{
+    align-self: center;
 }
