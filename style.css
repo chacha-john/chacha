@@ -17,7 +17,7 @@
 .brand{
     width: 50%;
     font-size: 3em;
-    padding-left: 5%;
+    padding-left: 10%;
 }
 .menu-items{
     width: 30%;
@@ -59,25 +59,26 @@ a{
 #callme{
     margin-top: 5%;
     text-decoration: wavy;
-    font-size: x-large;
+    font-size: xx-large;
     width: 30%;
-    padding: 5%;
+    padding: 8% 3%;
     color: white;
     text-align: center;
+    line-height: 2;
 }
 #img-1, #img-2{
     width: 30%;
+    
 }
 
 .text-1{
-    font-size: 3em;
+    font-size: 300%;
     color: #A16830;
-    margin: 20%;
     text-align: center;
-    width: 40%;
+    width: 75%;
     color: white;
-    margin-left: 30%;
-    margin-top: 30%;
+    margin-left: 20%;
+    margin-top: 20%;
 }
 span{
     color: black;
@@ -94,22 +95,27 @@ div img{
 }
 h2{
     text-align: center;
-    padding: 2%;
-    font-size: 2em;
+    padding-top: 2%;
+    font-size: 200%;
+    font-weight: normal;
 }
 #description-1{
-    width: 30%;
-    font-size: 2em;
-    position: relative;
-    left: 25%;
+    width: 85%;
+    font-size: 200%;
+    
 
 }
+#img-2 img{
+    width: 100%;
+    border-radius: 20px;
+}
 #description-1 p{
-    margin-top: 15%;
+    margin-top: 3%;
     font-family: 'Risque', cursive;
+    padding-left: 2%;
 }
 #img-2{
-    width: 30%;
+    width: 15%;
 }
 .cards{
     display: flex;
@@ -148,6 +154,8 @@ button:hover{
 }
 .description-2{
     text-align: left;
+    line-height: 2;
+    padding: 2% 0;
 }
 #let-us-talk{
     display: flex;
@@ -157,6 +165,7 @@ button:hover{
     
 }
 form{
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -206,4 +215,12 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 #submit-1{
     align-self: center;
+}
+
+/* Works done section */
+
+
+/* About section */
+.about{
+    padding: 0 10%;
 }
