@@ -182,15 +182,24 @@ hr{
 }
 
 /* Form section */
-input{
+input, textarea{
     background-color: transparent;
     border: none;
     border-bottom: 2px solid white;
     color: white;
     font-size: large;
-    padding: 2%;
-    text-align: right;
+    padding: 2% 0;
+    outline: none;
 }
 label{
-    margin-top: 5%;
+    margin: 5% 0;
+}
+:-ms-input-placeholder{
+    -webkit-text-fill-color: white !important;
+}
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #818181 inset !important;
+} 
+::placeholder{
+    color: #c4c4c4;
 }
