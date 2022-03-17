@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Righteous', cursive;
+    font-family: 'IM Fell French Canon', serif;
 }
 .head, #works, footer{
     width: 100%;
@@ -12,16 +12,18 @@
     width: 100%;
     display: flex;
     padding-top: 2%;
+    font-weight: 900;
 
 }
 .brand{
-    width: 50%;
+    width: 40%;
     font-size: 3em;
     padding-left: 10%;
 }
 .menu-items{
-    width: 30%;
+    width: 35%;
     margin: 0.5% 2%;
+    padding: 0 2%;
 }
 ul{
     list-style-type: none;
@@ -36,13 +38,14 @@ a{
 #lets-talk{
     width: 10%;
     height: 40px;
-    margin: 5px 5px;
+    margin: 5px;
+    margin-left: 3%;
     background-color: #A16830;
     color: #fff;
     font-size: x-large;
     border-radius: 5px;
-    justify-content: right;
     border: 1px solid #A16830;
+
 }
 #lets-talk:hover{
     background-color: transparent;
@@ -58,10 +61,10 @@ a{
 }
 #callme{
     margin-top: 5%;
-    text-decoration: wavy;
+    text-decoration: overline;
     font-size: xx-large;
     width: 30%;
-    padding: 8% 3%;
+    padding: 8% 0;
     color: white;
     text-align: center;
     line-height: 2;
@@ -97,11 +100,16 @@ h2{
     text-align: center;
     padding-top: 2%;
     font-size: 200%;
-    font-weight: normal;
+    font-weight: bold;
 }
 #description-1{
-    width: 85%;
+    width: 80%;
     font-size: 200%;
+    box-shadow: 2px 2px 2px black;
+    padding: 1% 2%;
+    position: relative;
+    left: 2%;
+    border-radius: 5px;
     
 
 }
@@ -111,16 +119,15 @@ h2{
 }
 #description-1 p{
     margin-top: 3%;
-    font-family: 'Risque', cursive;
-    padding-left: 2%;
 }
 #img-2{
-    width: 15%;
+    width: 20%;
 }
 .cards{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-weight: bold;
 }
 .card{
     width: 25%;
@@ -173,6 +180,7 @@ form{
     box-shadow: 5px 5px 10px black;
     padding: 2%;
     justify-content: space-between;
+    font-weight: bolder;
 }
 #email-1{
     border: none;
@@ -182,8 +190,15 @@ form{
 }
 footer{
     text-align: center;
-    font-size: small;
+    font-size: xx-large;
     padding: .5% 0;
+}
+footer a{
+    margin: .5% 2%;
+}
+footer p{
+    display: block;
+    font-size: small;
 }
 hr{
     width: 75%;
