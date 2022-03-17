@@ -15,6 +15,7 @@
     font-weight: 900;
 
 }
+
 .brand{
     width: 40%;
     font-size: 3em;
@@ -139,7 +140,7 @@ h2{
 .card img{
     border-radius: 60%;
     width: 30%;
-    height: 40%;
+    height: 30%;
     
 }
 button{
@@ -200,10 +201,6 @@ footer p{
     display: block;
     font-size: small;
 }
-hr{
-    width: 75%;
-    color: black;
-}
 
 /* Form section */
 input, textarea{
@@ -238,4 +235,152 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 /* About section */
 .about{
     padding: 0 10%;
+}
+@media screen and (max-width:1400px) {
+    #description-1{
+        font-size: 90%;
+    }
+    #home{
+        font-size: 50%;
+    }
+    #callme{
+        font-size: 120%;
+        margin-left: 0%;
+        width: 20%;
+        margin-top: 3%;
+    }
+    #img-1 img{
+        width: 70%;
+        align-self: center;
+        left: 10%;
+    }
+    button, #lets-talk{
+        font-size: 100%;
+    }
+    
+    .card{
+        width: 30%;
+        align-items: center;
+        padding: 2%;
+
+    }
+    .card img{
+        border-radius: 60%;
+        width: 30%;
+        height: 15%;
+    }
+    .menu-items{
+        font-size: small;
+    }
+}
+@media screen and (max-width:800px) {
+    #description-1{
+        font-size: 75%;
+    }
+    #home{
+        font-size: 30%;
+    }
+    #callme{
+        font-size: 60%;
+        margin-left: 0%;
+        width: 20%;
+        margin-top: 3%;
+    }
+    .card{
+        width: 100%;
+    }
+    .cards{
+        align-content: center;
+        width: 70%;
+        position: relative;
+        left: 15%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: -2%;
+    }
+    form{
+        width: 70%;
+    }
+    .menu-items{
+        display: none;
+    }
+    #lets-talk{
+        width: 30%;
+    }
+    .brand{
+        width: 60%;
+    }
+    .nav{
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    #description-1{
+        font-size: 90%;
+        width: 100%;
+        padding: 5%;
+    }
+    #home{
+        font-size: 80%;
+        width: 100%;
+    }
+    #callme{
+        font-size: unset;
+        margin: unset;
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .cards{
+        align-content: center;
+        width: 70%;
+        position: relative;
+        left: 15%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: -2%;
+    }
+    form{
+        width: 70%;
+    }
+    .menu-items,#img-2{
+        display: none;
+    }
+    #lets-talk{
+        width: 40%;
+    }
+    .brand{
+        width: 100%;
+        padding-left: 0;
+        margin: auto;
+    }
+    .nav{
+        display: block;
+        text-align: center;
+    }
+    .home-section{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .head{
+        padding: 0;
+        margin: 0;
+    }
+    .text-1{
+      margin: 0;
+      width: 100%;
+      padding: 5%;
+    }
+    #img-1{
+        width: 100%;
+        margin-top: -15%;
+    }
+    #img-1 img{
+        width: 90%;
+    }
 }
