@@ -1,0 +1,5 @@
+** Expected improvements
+- Change backgroud color
+- Add a button to change the background color
+- Remove some projects and have only relevant ones
+- 
