@@ -1,386 +1,66 @@
+/* 
+1. Gold color for buttons, logos and links - #f9a825
+2. smoke white for text - #f5f5f5
+3. black for background - #000000
+
+*/
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'IM Fell French Canon', serif;
+    font-family: 'Nunito', sans-serif;
+    background-color: #000;
+    color: #f5f5f5;
+    
+
 }
-.head, #works, footer{
-    width: 100%;
-    background-image: linear-gradient(#2082A1, #A16830);
-}
+/* 1. Nav section */
 .nav{
-    width: 100%;
-    display: flex;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    text-align: center;
     padding-top: 2%;
-    font-weight: 900;
-
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f9a825;
+    text-decoration: overline;
 }
 
-.brand{
-    width: 40%;
-    font-size: 3em;
-    padding-left: 10%;
+.nav .brand{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f9a825;
+    width: 15%;
 }
 .menu-items{
-    width: 35%;
-    margin: 0.5% 2%;
-    padding: 0 2%;
+    /* border: #f9a825 1px solid; */
+    width: 40%;
 }
-ul{
-    list-style-type: none;
+.menu-items ul{
+    list-style: none;
     display: flex;
     justify-content: space-between;
-    font-size: x-large;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-#lets-talk{
+
+.socials{
     width: 10%;
-    height: 40px;
-    margin: 5px;
-    margin-left: 3%;
-    background-color: #A16830;
-    color: #fff;
-    font-size: x-large;
-    border-radius: 5px;
-    border: 1px solid #A16830;
-
-}
-#lets-talk:hover{
-    background-color: transparent;
-    border: 1px white solid;
-}
-.home-section, .about{
+    /* margin-top: 3%; */
     display: flex;
-    width: 100%;
+    justify-content: space-around;
 }
-#home{
-    width: 40%;
-
-}
-#callme{
-    margin-top: 5%;
-    text-decoration: overline;
-    font-size: xx-large;
-    width: 30%;
-    padding: 8% 0;
-    color: white;
-    text-align: center;
-    line-height: 2;
-}
-#img-1, #img-2{
-    width: 30%;
-    
+.socials a{
+    /* margin: 10%; */
 }
 
-.text-1{
-    font-size: 300%;
-    color: #A16830;
-    text-align: center;
-    width: 75%;
-    color: white;
-    margin-left: 20%;
-    margin-top: 20%;
-}
-span{
-    color: black;
-    font-family: 'Risque', cursive;
-}
-div img{
-    width: 100%;
-    position: relative;
-    bottom: -1%;
-}
-#let-us-talk, #about-me{
-    width: 100%;
-    background-image: linear-gradient(#A16830,#2082A1);
-}
-h2{
-    text-align: center;
-    padding-top: 2%;
-    font-size: 200%;
-    font-weight: bold;
-}
-#description-1{
-    width: 80%;
-    font-size: 200%;
-    box-shadow: 2px 2px 2px black;
-    padding: 1% 2%;
-    position: relative;
-    left: 2%;
-    border-radius: 5px;
-    
-
-}
-#img-2 img{
-    width: 100%;
-    border-radius: 20px;
-}
-#description-1 p{
-    margin-top: 3%;
-}
-#img-2{
-    width: 20%;
-}
-.cards{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-}
-.card{
-    width: 25%;
-    box-shadow: 5px 5px 10px black;
-    border-radius: 10px;
-    margin: 2%;
-    padding: 1%;
-}
-.card img{
-    border-radius: 60%;
-    width: 30%;
-    height: 30%;
-    
-}
-button{
-    width: 50%;
-    height: 50px;
-    margin: 5px 5px;
-    background-color: #A16830;
-    border: 1px solid #A16830;
-    color: #fff;
-    font-size: x-large;
-    border-radius: 5px;
-    justify-content: right;
-    margin-top: 5%;
-    margin-bottom: 10%;
-}
-button:hover{
-    background-color: transparent;
-    border: 1px white solid;
-}
-.description-2{
-    text-align: left;
-    line-height: 2;
-    padding: 2% 0;
-}
-#let-us-talk{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 2%;
-    
-}
-form{
-    margin-top: 2%;
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px black;
-    padding: 2%;
-    justify-content: space-between;
-    font-weight: bolder;
-}
-#email-1{
-    border: none;
-    background-color: transparent;
-    border-bottom: black;
-    width: 75%;
-}
-footer{
-    text-align: center;
-    font-size: xx-large;
-    padding: .5% 0;
-}
-footer a{
-    margin: .5% 2%;
-}
-footer p{
-    display: block;
-    font-size: small;
-}
-
-/* Form section */
-input, textarea{
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid white;
-    color: white;
-    font-size: large;
-    padding: 2% 1%;
-    outline: none;
-    border-radius: 5px;
-}
-label{
-    margin: 5% 0;
-}
-:-ms-input-placeholder{
-    -webkit-text-fill-color: white !important;
-}
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active{
-    -webkit-box-shadow: 0 0 0 30px rgb(63, 145, 170) inset !important;
-} 
-::placeholder{
-    color: #c4c4c4;
-}
-#submit-1{
-    align-self: center;
-}
-
-/* Works done section */
-
-
-/* About section */
-.about{
-    padding: 0 10%;
-}
-@media screen and (max-width:1400px) {
-    #description-1{
-        font-size: 90%;
-    }
-    #home{
-        font-size: 50%;
-    }
-    #callme{
-        font-size: 120%;
-        margin-left: 0%;
-        width: 20%;
-        margin-top: 3%;
-    }
-    #img-1 img{
-        width: 70%;
-        align-self: center;
-        left: 10%;
-    }
-    button, #lets-talk{
-        font-size: 100%;
-    }
-    
-    .card{
-        width: 30%;
-        align-items: center;
-        padding: 2%;
-
-    }
-    .card img{
-        border-radius: 60%;
-        width: 30%;
-        height: 15%;
-    }
-    .menu-items{
-        font-size: small;
-    }
-}
-@media screen and (max-width:800px) {
-    #description-1{
-        font-size: 75%;
-    }
-    #home{
-        font-size: 30%;
-    }
-    #callme{
-        font-size: 60%;
-        margin-left: 0%;
-        width: 20%;
-        margin-top: 3%;
-    }
-    .card{
-        width: 100%;
-    }
-    .cards{
-        align-content: center;
-        width: 70%;
-        position: relative;
-        left: 15%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: -2%;
-    }
-    form{
-        width: 70%;
-    }
-    .menu-items{
-        display: none;
-    }
-    #lets-talk{
-        width: 30%;
-    }
-    .brand{
-        width: 60%;
-    }
-    .nav{
-        text-align: center;
-    }
-    
-}
-@media screen and (max-width:500px) {
-    #description-1{
-        font-size: 90%;
-        width: 100%;
-        padding: 5%;
-    }
-    #home{
-        font-size: 80%;
-        width: 100%;
-    }
-    #callme{
-        font-size: unset;
-        margin: unset;
-        width: 100%;
-    }
-    .card{
-        width: 100%;
-    }
-    .cards{
-        align-content: center;
-        width: 70%;
-        position: relative;
-        left: 15%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: -2%;
-    }
-    form{
-        width: 70%;
-    }
-    .menu-items,#img-2{
-        display: none;
-    }
-    #lets-talk{
-        width: 40%;
-    }
-    .brand{
-        width: 100%;
-        padding-left: 0;
-        margin: auto;
-    }
-    .nav{
-        display: block;
-        text-align: center;
-    }
-    .home-section{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .head{
-        padding: 0;
-        margin: 0;
-    }
-    .text-1{
-      margin: 0;
-      width: 100%;
-      padding: 5%;
-    }
-    #img-1{
-        width: 100%;
-        margin-top: -15%;
-    }
-    #img-1 img{
-        width: 90%;
-    }
-}
