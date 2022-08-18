@@ -60,9 +60,6 @@ a:hover{
     display: flex;
     justify-content: space-around;
 }
-.socials a{
-    /* margin: 10%; */
-}
 
 /* Home section */
 #home-section .home-text{
@@ -72,5 +69,58 @@ a:hover{
     text-align: center;
     padding: 10%;
     font-size: 1.5rem;
+}
+#home-section .home-text h3{
+    margin: 3%;
+}
+#home-section .home-text h1{
+    color: #f9a825;
+    font-size: 4rem;
+}
+#home-section .home-text p{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+/* What I Do section */
+.cards{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#what-i-do .card p{
+    background-color: #f9a825;
+    color: #000;
+}
+#what-i-do .card{
+    background-color: #f9a825 !important;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+    padding: 2%;
+}
+.card img{
+    background-color: unset;
+    height: 40px;
+    margin-bottom: 5%;
+}
+#what-i-do>h2{
+    text-align: center;
+}
+.card h3{
+    color: #000;
+    font-size: 1.5rem;
     font-weight: bold;
+    background-color: #f9a825;
+    padding: 3%;
 }
