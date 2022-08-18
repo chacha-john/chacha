@@ -28,6 +28,7 @@
     justify-content: space-around;
     font-size: 1.5rem;
     font-weight: bold;
+    position: fixed;
 }
 .nav a{
     text-decoration: none;
@@ -45,7 +46,6 @@ a:hover{
     width: 15%;
 }
 .menu-items{
-    /* border: #f9a825 1px solid; */
     width: 40%;
 }
 .menu-items ul{
@@ -64,3 +64,13 @@ a:hover{
     /* margin: 10%; */
 }
 
+/* Home section */
+#home-section .home-text{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    padding: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
