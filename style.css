@@ -233,3 +233,11 @@ form button:hover{
     background-color: #000;
     color: #f9a825;
 }
+
+/* Footer */
+footer{
+    text-align: center;
+}
+footer p i{
+    font-size: small;
+}
