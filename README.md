@@ -11,7 +11,7 @@
 + [Authors Info](#authors-Info)
 
 # Description
-<p>A portfolio website to show case my skills and abilities. The site also shows the works I have done and has links to my contacts incase some one is interested  in the services I offer.</p>
+<p>A portfolio website to showcase my skills and abilities.</p>
 
 [Go Back to the top](#Portfolio)
 
@@ -34,8 +34,10 @@
 
 # Authors Info
 
-Linkedin - [Chacha John](https://www.linkedin.com/in/rikonnect/)
+[Linkedin](https://www.linkedin.com/in/chachaup/)
 
-Email - [Chacha John](mailto:chacha.john@student.moringaschool.com)
+[Twitter](https://www.twitter.com/chachaups)
+
+[Medium] (https://chachaup.medium.com)
 
 [Go Back to the top](#Portfolio)
