@@ -58,7 +58,7 @@ div .card{
     font-style: italic;
     font-weight: bold;
 }
-#projects, #what-i-do, #about{
+#projects, #what-i-do, #about, #let-us-talk{
     padding-top: 3%;
 }
 
@@ -195,4 +195,41 @@ a:hover{
 }
 .action h2{
     font-size: 2.5rem;
+}
+
+/* Contact section */
+#let-us-talk form{
+    padding: 2%;
+    width: 60%;
+    position: relative;
+    left: 20%;
+    margin-bottom: 2%;
+    box-shadow: #f9a825 3px 2px 6px;
+    border-radius: 1%;
+}
+input, textarea{
+    display: block;
+    margin: 2% 0%;
+    width: 100%;
+    background-color: #f9a825;
+    color: #000;
+    padding: 1%;
+    font-size: large;
+}
+::placeholder{
+    color: #000;
+}
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #f9a825 inset !important;
+}
+form button{
+    background-color: #f9a825;
+    color: #000;
+    padding: 1%;
+    border-radius: 5%;
+    font-weight: 600;
+}
+form button:hover{
+    background-color: #000;
+    color: #f9a825;
 }
